@@ -1,3 +1,33 @@
+/* Header */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 110px;
+}
+
+header img {
+    width: auto;
+    height: 130px;
+}
+
 #title {
-    color: aqua;
+    color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* Container */
+article img {
+    width: auto;
+    height: 50px;
 }
