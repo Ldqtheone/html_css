@@ -27,6 +27,19 @@ header img {
 
 
 /* Container */
+
+#container{
+   display: flex;
+}
+
+#information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: red solid 2px;
+    align-items: center;
+}
+
 article img {
     width: auto;
     height: 50px;
