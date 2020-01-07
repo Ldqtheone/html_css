@@ -25,11 +25,77 @@ header img {
     align-items: center;
 }
 
+#acceuilButton {
+    float: left;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    padding-right: 3px;
+    padding-left: 3px;
+    background: red;
+    width: 200%;
+    box-sizing: unset;
+    border-width: unset;
+    font-size: x-large;
+    border-color: black;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+#acceuilButton:hover{
+    background-color: gainsboro; 
+  
+}
+
+  #ItesciaButton {
+    float: left;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    padding-right: 3px;
+    padding-left: 3px;
+    background: red;
+    width: 200%;
+    box-sizing: unset;
+    border-width: unset;
+    font-size: x-large;
+    border-color: black ;
+    border-left-width: 0px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px; 
+  }
+
+  #ItesciaButton:hover{
+    background-color: gainsboro; 
+  }
+
+  #acceuilText, #ItesciaText{
+    color: white;
+    text-decoration: unset;
+    cursor: unset;
+
+  }
+  h1{
+    color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: helvetica;
+    font-size: -webkit-xxx-large;
+    font-style: oblique;
+    text-decoration: underline;
+  }
 
 /* Container */
 
 #container{
    display: flex;
+   border: black solid;
+   border-bottom: none;
+   border-left: none;
+   border-right: none;
 }
 
 #information{
