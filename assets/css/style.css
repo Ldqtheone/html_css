@@ -38,10 +38,17 @@ form{
 }
 
 /* Submit button */
-form input:last-child{
+form input[type=submit]{
     width: 25%;
     text-align: center;
     margin-top: 50px;
+    height: 30px;
+    border-radius: 10px;
+    background: orangered;
+    font-size: 0.8em;
+    font-style: italic;
+    color: white;
+    box-shadow: 5px 4px 2px orangered;
 }
 
 li {
@@ -75,6 +82,10 @@ article img {
 
 #informatique ul{
     margin-top: 2px;
+}
+
+.listMII {
+    margin-bottom: 0;
 }
 
 /********* firstChoice section *********/
