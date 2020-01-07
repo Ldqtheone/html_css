@@ -1,10 +1,10 @@
-body{
+body {
     margin: 0;
 }
 
 /********* HEADER *********/
 
-header{
+header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -16,11 +16,11 @@ header{
     height: 225px;
 }
 
-#navbar{
+#navbar {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    
+
 }
 
 /********* Itescia Logo *********/
@@ -53,15 +53,16 @@ header img {
     border-right-width: 1px;
     border-top-width: 1px;
     border-bottom-width: 1px;
-    -webkit-transition-duration: 0.4s; 
-  transition-duration: 0.4s;
-}
-#acceuilButton:hover{
-    background-color: gainsboro; 
-  
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
 
-  #ItesciaButton {
+#acceuilButton:hover {
+    background-color: gainsboro;
+
+}
+
+#ItesciaButton {
     float: left;
     padding-bottom: 1px;
     padding-top: 1px;
@@ -72,24 +73,25 @@ header img {
     box-sizing: unset;
     border-width: unset;
     font-size: x-large;
-    border-color: black ;
+    border-color: black;
     border-left-width: 0px;
     border-right-width: 1px;
     border-top-width: 1px;
-    border-bottom-width: 1px; 
-  }
+    border-bottom-width: 1px;
+}
 
-  #ItesciaButton:hover{
-    background-color: gainsboro; 
-  }
+#ItesciaButton:hover {
+    background-color: gainsboro;
+}
 
-  #acceuilText, #ItesciaText{
+#acceuilText, #ItesciaText {
     color: white;
     text-decoration: unset;
     cursor: unset;
 
-  }
-  h1{
+}
+
+h1 {
     color: black;
     display: flex;
     text-align: center;
@@ -97,11 +99,11 @@ header img {
     font-family: helvetica, serif;
     font-style: oblique;
     text-decoration: underline;
-  }
+}
 
 /********* CONTAINER *********/
 
-form{
+form {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -109,7 +111,7 @@ form{
 }
 
 /* Submit button */
-form input[type=submit]{
+form input[type=submit] {
     width: 25%;
     text-align: center;
     margin-top: 50px;
@@ -135,7 +137,7 @@ span {
     font-weight: bold;
 }
 
-.bac{
+.bac {
     color: red;
 }
 
@@ -151,7 +153,7 @@ article img {
     margin-bottom: 0;
 }
 
-#informatique ul{
+#informatique ul {
     margin-top: 2px;
 }
 
@@ -159,9 +161,9 @@ article img {
     margin-bottom: 0;
 }
 
-#container{
-   display: flex;
-   margin: 8px;
+#container {
+    display: flex;
+    margin: 8px;
 }
 
 /********* firstChoice section *********/
@@ -184,7 +186,7 @@ article img {
     background: #16c0f3;
 }
 
-.gestionBan, .infoBan, .manageBan{
+.gestionBan, .infoBan, .manageBan {
     text-align: center;
     color: white;
     padding-top: 10px;
@@ -193,7 +195,7 @@ article img {
 }
 
 /********* information section *********/
-#information{
+#information {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -221,19 +223,19 @@ article img {
     font-size: 0.8em;
 }
 
-#formationC aside:first-child{
+#formationC aside:first-child {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
 /********* Formation continue last aside *********/
-article aside:last-child{
+article aside:last-child {
     width: 100%;
 }
 
 /********* All input borders *********/
-input, input:focus{
+input, input:focus {
     border-top: none;
     border-left: none;
     border-right: none;
@@ -248,11 +250,12 @@ footer {
     padding: 10px;
 }
 
-.reseaux{
+.reseaux {
     display: flex;
     justify-content: center;
 }
-.reseaux img{
+
+.reseaux img {
     padding-right: 12px;
     margin-top: 5px;
     margin-bottom: 5px;
