@@ -20,49 +20,49 @@
             <h2>Votre 1er choix de formation à ITESCIA</h2>
             <article id="gestion">
                 <img src="assets/images/Gestion.jpg" alt="Logo gestion"/>
-                <p>BAC +2 :</p>
+                <p class="bac">BAC +2 :</p>
                 <input type="radio" id="CG" name="contactForm">
-                <label for="CG">BTS CG</label>
-                <p>BAC +3 :</p>
-                <h3>DCG</h3>
+                <label for="CG"><span>BTS CG</span></label><br>
+                <p class="bac">BAC +3 :</p>
+                <span>DCG</span><br>
                 <input type="radio" id="DCGL1" name="contactForm">
                 <label for="DCGL1">Entrée en L1</label>
                 <input type="radio" id="DCGL2" name="contactForm">
                 <label for="DCGL2">Entrée en L2</label>
-                <p>BAC +4 :</p>
-                <h3>Contrôleur de Gestion</h3>
+                <p class="bac">BAC +4 :</p>
+                <span>Contrôleur de Gestion</span><br>
                 <input type="radio" id="GL3" name="contactForm">
                 <label for="GL3">Entrée en L3</label>
                 <input type="radio" id="GM1" name="contactForm">
                 <label for="GM1">Entrée en M1</label>
-                <p>BAC +5 :</p>
+                <p class="bac">BAC +5 :</p>
                 <input type="radio" id="DSCG" name="contactForm">
-                <label for="CG">DSCG(Entrée en M1)</label>
+                <label for="CG"><span>DSCG(Entrée en M1)</span></label>
             </article>
             <article id="management">
                 <img src="assets/images/management.jpg" alt="Logo management"/>
-                <p>BAC +4:</p>
-                <h3>Responsable de systèmes de management QHSE</h3>
+                <p class="bac">BAC +4:</p>
+                <span>Responsable de systèmes de management QHSE</span><br>
                 <input type="radio" id="QHSEL3" name="contactForm">
                 <label for="QHSEL3">Entrée en L3</label>
                 <input type="radio" id="QHSEM1" name="contactForm">
-                <label for="QHSEM1">Entrée en M1</label>
-                <h3>Responsable Ressources Humaines</h3>
+                <label for="QHSEM1">Entrée en M1</label><br>
+                <span>Responsable Ressources Humaines</span><br>
                 <input type="radio" id="RRHL3" name="contactForm">
                 <label for="RRHL3">Entrée en L3</label>
                 <input type="radio" id="RRHM1" name="contactForm">
                 <label for="RRHM1">Entrée en M1</label>
-                <p>BAC +5:</p>
+                <p class="bac">BAC +5:</p>
                 <input type="radio" id="MQPI" name="contactForm">
-                <label for="MQPI">Manager Qualité et Processus Intelligents(entrée en M2)</label>
+                <label for="MQPI"><span>Manager Qualité et Processus Intelligents(entrée en M2)</span></label>
             </article>
             <article id="informatique">
                 <img src="assets/images/Informatique.jpg" alt="Logo informatique"/>
-                <p>BAC +2</p>
+                <p class="bac">BAC +2</p>
                 <input type="radio" id="BTS" name="contactForm">
-                <label for="BTS">BTS SIO, option SISR ou SLAM</label><br/>
+                <label for="BTS"><span>BTS SIO, option SISR ou SLAM</span></label><br/>
                 <input type="radio" id="CODEUR" name="contactForm">
-                <label for="CODEUR">Codeur informatique:</label>
+                <label for="CODEUR"><span>Codeur informatique :</span></label><br>
                 <ul>
                     <li><p>En 2 ans en alternance
                         <input type="radio" id="CERGY2" name="codeur">
@@ -77,11 +77,11 @@
                         <label for="PARIS1">a Paris</label>
                     </p></li>
                 </ul>
-                <p>BAC +3(en 1 an)</p>
+                <p class="bac">BAC +3(en 1 an)</p>
                 <input type="radio" id="LIG" name="contactForm">
-                <label for="LIG">Licence d'Informatique générale</label><br/>
+                <label for="LIG"><span>Licence d'Informatique générale</span></label><br/>
                 <input type="radio" id="CDSMC" name="contactForm">
-                <label for="CDSMC">Concepteur développeur de solution mobiles et connectées</label>
+                <label for="CDSMC"><span>Concepteur développeur de solution mobiles et connectées</span></label>
                 <ul>
                     <li><p>En alternance
                         <input type="radio" id="CERGY+3" name="concept">
@@ -92,11 +92,11 @@
                         <label for="PARIS+3">a Paris</label>
                     </p></li>
                 </ul>
-                <p>BAC +5:</p>
-                <h3>Manager en Ingénierie Informatique</h3>
+                <p class="bac">BAC +5:</p>
+                <span>Manager en Ingénierie Informatique</span><br>
                 <input type="radio" id="MIIL3" name="contactForm">
                 <label for="MIIL3">Entrée en L3</label><br>
-                <h4>Entrée en M1, specialisation :</h4>
+                <p>Entrée en M1, specialisation :</p>
                 <ul class="MIIM1-spec">
                     <li><input type="radio" id="cyber" name="contactForm">
                         <label for="cyber">MSc Cybersécurité</label><br/></li>
@@ -113,7 +113,7 @@
                     <li><input type="radio" id="IA" name="contactForm">
                         <label for="IA">Intelligence Artificielle et Applications </label><br/></li>
                 </ul>
-                <h4>Entrée en M2, spécialisation : </h4>
+                <p>Entrée en M2, spécialisation : </p>
                 <ul class="MIIM2-spec">
                     <li><input type="radio" name="contactForm" id="entrepreneur">
                         <label for="entrepreneur">MSc Entrepreneuriat & IT</label><br></li>
@@ -121,7 +121,7 @@
                         <label for="business">MSc International Business for IT</label><br></li>
                 </ul>
 
-                <p>Business Analyste</p>
+                <span>Business Analyste</span><br>
                 <input type="radio" name="contactForm" id="PSI">
                 <label for="PSI">Performance et systèmes d'information</label><br>
                 <input type="radio" name="contactForm" id="digitRh">

@@ -1,4 +1,5 @@
-/* Header */
+/********* HEADER *********/
+
 header{
     display: flex;
     flex-direction: row;
@@ -14,6 +15,7 @@ header{
     width: 110px;
 }
 
+/********* Itescia Logo *********/
 header img {
     width: auto;
     height: 130px;
@@ -27,7 +29,7 @@ header img {
 }
 
 
-/* Container */
+/********* CONTAINER *********/
 
 form{
     display: flex;
@@ -35,10 +37,11 @@ form{
     justify-content: center;
 }
 
+/* Submit button */
 form input:last-child{
     width: 25%;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 li {
@@ -49,6 +52,23 @@ h2 {
     text-align: center;
 }
 
+span {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.bac{
+    color: red;
+}
+
+article img {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/********* informatique article *********/
 #informatique h4 {
     margin-bottom: 0;
 }
@@ -57,6 +77,15 @@ h2 {
     margin-top: 2px;
 }
 
+/********* firstChoice section *********/
+#firstChoice {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    margin-right: 30px;
+}
+
+/********* information section *********/
 #information{
     display: flex;
     flex-direction: column;
@@ -73,13 +102,7 @@ h2 {
     height: 40%;
 }
 
-#firstChoice {
-    display: flex;
-    flex-direction: column;
-    width: 48%;
-    margin-right: 30px;
-}
-
+/********* Formation continue article *********/
 #formationC {
     display: flex;
     align-items: center;
@@ -97,24 +120,19 @@ h2 {
     width: 100%;
 }
 
-article img {
-    width: 100%;
-    height: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
+/********* Formation continue last aside *********/
 article aside:last-child{
     width: 100%;
 }
 
+/********* All input borders *********/
 input, input:focus{
     border-top: none;
     border-left: none;
     border-right: none;
 }
 
-/* FOOTER */
+/********* FOOTER *********/
 
 footer {
     margin-top: 54px;
