@@ -151,3 +151,13 @@ footer {
     font-size: 0.7em;
     padding: 10px;
 }
+
+.reseaux{
+    display: flex;
+    justify-content: center;
+}
+.reseaux img{
+    padding-right: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
