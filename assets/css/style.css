@@ -38,28 +38,19 @@ header img {
 }
 
 #acceuilButton {
-    float: left;
     padding-bottom: 1px;
     padding-top: 1px;
     padding-right: 3px;
     padding-left: 3px;
     background: red;
-    width: 200%;
-    box-sizing: unset;
-    border-width: unset;
     font-size: x-large;
     border-color: black;
-    border-left-width: 1px;
-    border-right-width: 1px;
-    border-top-width: 1px;
-    border-bottom-width: 1px;
-    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
 
 #acceuilButton:hover {
     background-color: gainsboro;
-
+    color: black;
 }
 
 #ItesciaButton {
@@ -88,7 +79,10 @@ header img {
     color: white;
     text-decoration: unset;
     cursor: unset;
+}
 
+#acceuilText:hover, #ItesciaText:hover{
+    color: black;
 }
 
 h1 {
@@ -227,6 +221,18 @@ article img {
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+#formationC ul {
+    padding-left: 0;
+}
+
+#formationC ul li{
+    display: flex;
+}
+
+.titleTry {
+    width: 70%;
 }
 
 /********* Formation continue last aside *********/
