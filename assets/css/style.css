@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    font-family: helvetica;
+    font-size: large ;
 }
 
 /********* HEADER *********/
@@ -203,7 +205,25 @@ article img {
     flex-direction: column;
     width: 90%;
     height: 40%;
+    font-weight: 600;
+    font-size: medium;
+    
 }
+#scolarite {
+    font-weight: 600;
+    font-size: medium;
+}
+#souhaits{
+    font-weight: 600;
+    font-size: medium;
+} 
+#parrain{
+    font-weight: 600;
+    font-size: medium;
+}
+
+
+
 
 /********* Formation continue article *********/
 #formationC {
