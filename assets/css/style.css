@@ -105,6 +105,7 @@ form{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
 }
 
 /* Submit button */
@@ -169,6 +170,26 @@ article img {
     flex-direction: column;
     width: 48%;
     margin-right: 30px;
+}
+
+.gestionBan {
+    background: #f69d25;
+}
+
+.manageBan {
+    background: #c6d300;
+}
+
+.infoBan {
+    background: #16c0f3;
+}
+
+.gestionBan, .infoBan, .manageBan{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.9em;
 }
 
 /********* information section *********/
