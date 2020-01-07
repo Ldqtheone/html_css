@@ -1,6 +1,11 @@
+@font-face {
+    font-family: "CustomFont";
+    url("../fonts/Cagliostro-Regular.ttf") format("ttf"),
+}
+
 body {
     margin: 0;
-    font-family: helvetica;
+    font-family: CustomFont, serif;
     font-size: large ;
 }
 
