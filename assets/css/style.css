@@ -301,5 +301,6 @@ footer {
             padding-bottom: 50px;
             border-bottom: 5px solid red;
             width: 100%;
+            margin-right: 0;
         }
 }
